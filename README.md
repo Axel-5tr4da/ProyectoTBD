@@ -1,3 +1,1 @@
-Para trabajar este proyecto necesitaremos las dependencias que instalaremos con los siguientes comandos:
-npm init -y
-npm install express mysql2 body-parser express-session bcrypt dotenv multer xlsx nodemon bcrypt
+Para trabajar este proyecto debemos crear una carpeta en la memoria con el nombre que quieran, y dentro de ella una sub-carpeta llamada public donde meteremos los archivos .html que seran las paginas 
