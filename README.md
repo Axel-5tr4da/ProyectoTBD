@@ -25,5 +25,6 @@ NPM INIT -Y
 ```
 despues 
 ```
-npm install express mysql2 body-parser express-session bcrypt dotenv multer xlsx nodemon bcrypt, que es toda la paqueteria necesaria para que funcione
+npm install express mysql2 body-parser express-session bcrypt dotenv multer xlsx nodemon bcrypt
 ```
+que es toda la paqueteria necesaria para que funcione
