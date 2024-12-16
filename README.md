@@ -27,4 +27,9 @@ despues
 ```
 npm install express mysql2 body-parser express-session bcrypt dotenv multer xlsx nodemon bcrypt
 ```
-que es toda la paqueteria necesaria para que funcione
+que es toda la paqueteria necesaria para que funcione.
+Una vez hecho integrado todo ya podemos acceder al proyecto en la direccion localhost:3000 desde nuestro navegador, despues de meter el comando
+```
+npm start
+```
+en la terminal para correr el servidor y poder interactuar con el mismo
