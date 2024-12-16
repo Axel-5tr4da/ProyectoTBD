@@ -1,6 +1,6 @@
 Para trabajar este proyecto debemos crear una carpeta en la memoria con el nombre que quieran, y dentro de ella una sub-carpeta llamada public donde meteremos los archivos .html que seran las paginas a las cuales accederemos desde el navegador y con las cuales vamos a interactuar, para la estructura quedaria algo mas o menos asi 
  ```
-   Carpeta del proyecto/
+   ProyectoTBD/
    ├── public/
    │   ├── admin.html
    │   ├── busqueda.html
