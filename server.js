@@ -301,15 +301,12 @@ app.get('/borrar-pacientes', requireLogin, requireRole(['medico','administrador'
 });
 app.get('/borrar-usuarios', requireLogin, requireRole('administrador'),(req, res) => {
   console.log(req.query);
-  const { name_search, surname_search } = req.query;
+  const { name_search} = req.query;
   console.log(name_search,surname_search);
   let query = 'DELETE FROM usuarios WHERE 1=1';
 
   if (name_search) {
-    query += ` AND nombre LIKE '%${name_search}%'`;
-  }
-  if (surname_search) {
-    query += ` AND apellido LIKE '%${surname_search}%'`;
+    query += ` AND nombre_usuario LIKE '%${name_search}%'`;
   }
   db.query(query, (err, results) => {
     if (err) {
