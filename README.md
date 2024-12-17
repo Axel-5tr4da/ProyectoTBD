@@ -32,4 +32,4 @@ Una vez hecho integrado todo ya podemos acceder al proyecto en la direccion loca
 ```
 npm start
 ```
-en la terminal para correr el servidor y poder interactuar con el mismo
+en la terminal para correr el servidor y poder interactuar con el mismo, para ver una muestra del proyecto, ir al siguiente enlace https://youtu.be/1ltHTXstylI
